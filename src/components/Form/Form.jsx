@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import { useTelegram } from '../../hooks/useTelegram';
 import './Form.css';
-
+/*
 const Form = () => {
 	return (
 		<div>
@@ -9,7 +9,7 @@ const Form = () => {
 		</div>	
 	)
 }
-/*
+*/
 const Form = () => {
 	const [country, setCountry] = useState('');
 	const [street, setStreet] = useState('');
@@ -69,7 +69,7 @@ const onChangeSubject = (e) => {
 		</div>	
 	)
 }
-*/
+
 /*
 import {useTelegram} from "../../hooks/useTelegram";
 
