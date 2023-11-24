@@ -3,6 +3,14 @@ import { useTelegram } from '../../hooks/useTelegram';
 import './Form.css';
 
 const Form = () => {
+	return (
+		<div>
+			FORM
+		</div>	
+	)
+}
+/*
+const Form = () => {
 	const [country, setCountry] = useState('');
 	const [street, setStreet] = useState('');
 	const [subject, setSubject] = useState('physical');
@@ -61,7 +69,7 @@ const onChangeSubject = (e) => {
 		</div>	
 	)
 }
-
+*/
 /*
 import {useTelegram} from "../../hooks/useTelegram";
 
